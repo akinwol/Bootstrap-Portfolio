@@ -8,12 +8,13 @@
 
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
 
   <!-- My CSS -->
 
   <link rel="stylesheet" href="style.css">
+  
 
   <title>Portfolio</title>
 
@@ -21,85 +22,51 @@
 
 <body>
 
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" > -->
-  <!-- <h1> Tobi Akinwumi</h1> -->
-  <!-- 
-    <div class="container">
+  <header>
 
-
-      <div class="row">
-        <div class="col-md-6">
-          <a class="navbar-brand" href="#">Tobi Akinwumi</a>
-        </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-       
-
-        <div class="col-md-6" style="float: right;">
-
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav justify-content-end">
-              <a class="nav-item nav-link active" href="#">About
-                <span class="sr-only">(current)</span>
-              </a>
-              <a class="nav-item nav-link" href="#">Portfolio</a>
-              <a class="nav-item nav-link" href="#">Contact</a>
-            </div>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light mynav">
+      <div>
+        <a href="index.html" id="logo">Tobi Akinwumi</a>
       </div>
-    </div>
-  </nav> -->
-
-
-<!--   <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
-
-  <nav class="navbar fixed-top navbar-expand-lg mynav">
-    <a class="navbar-brand" href="#">Tobi Akinwumi</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav justify-content-end ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navlinks">
+          <a class="nav-item nav-link active" href="index.html">About
             <span class="sr-only">(current)</span>
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
 
+  </header>
 
   <div class="container" id="sectionone">
     <!-- First full row -->
-    <div class="row">
+    <div class="row" id="rows">
 
       <div class="col-lg-12">
         <h1 class="contentheader">
           About Me
         </h1>
         <hr>
-
       </div>
     </div>
 
     <!-- Second row with picture  -->
 
-    <div class="row">
+    <div class="row" id="rows">
       <div class="col-lg-12">
-        <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="Profile_avatar_placeholder_large">
+  
 
+        
+        <img class="img-fluid pic" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="Profile_avatar_placeholder_large">
+     
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et sapiente asperiores, nostrum laborum odit, repellat ducimus
           vel maiores consequatur doloribus est accusantium natus labore ad eum aliquam cum corporis.
@@ -141,18 +108,18 @@
   </div>
 
   <footer>
-      <div class="container">
-        <span class="footer">
-            copyright &copy;
-        </span>
+    <div class="container">
+      <span class="footer">
+        copyright &copy;
+      </span>
 
 
 
-      </div>
+    </div>
 
   </footer>
 
-<!-- <div class="row footer">
+  <!-- <div class="row footer">
     <div class="col-lg-12">
         copyright &copy;
 

@@ -1,0 +1,139 @@
+.mynav {
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    padding: 0px;
+}
+
+.mynav .navbar-brand {
+    color:  #ffffff;
+    /* margin-left: 200px; */
+    font-size: 40px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    
+}
+
+.navbar-brand:hover {
+    color: oldlace;
+}
+
+.navbar-brand:target {
+    color: #666666;
+}
+
+
+
+.nav-link {
+    color: #777777;
+}
+
+.navmargin {
+    margin-right: 30px;
+}
+
+
+
+body {
+    background-image: url(../images/dust.png);
+    margin: 0px;
+    padding-top: 50px;
+}
+
+#sectionone {
+    margin-top: 70px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+    /* margin-left: 20px; */
+}
+
+.contentheader {
+    /* margin-top: 30px; */
+    padding: 10px;
+    color: #4aaaa5;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 200%;
+    color: #777777;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 130px;
+    height: 200px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-color: #4aaaa5;
+    position: relative; 
+
+    /* 
+    
+  */
+    /* position: relative;
+    clear: both */
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 10%;
+}
+
+.row {
+    padding: 0px 20px;
+    /* margin-bottom: 30px; */
+}
+
+
+.portfoliopic {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+}
+
+h3 {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    font-size: 18px;
+}
+
+form {
+    margin: 10px 0px 30px;
+}
+
+.btn {
+    background: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.btn:hover {
+    background: #3b8884;
+}
+
+/* .btn:active {
+    background: #2c6663;
+} */
+
